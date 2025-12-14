@@ -18,37 +18,9 @@ Lets take a look inside the src folder
 
 - `utils` -> contains helper methods, error classes etc.
 
-- Inside the `src/config` folder create a file names `config.json` and write this code in it:
-
-  ```
-  {
-  "development": {
-  "username": "root",
-  "password": null,
-  "database": "database_development",
-  "host": "127.0.0.1",
-  "dialect": "mysql"
-  },
-  "test": {
-  "username": "root",
-  "password": null,
-  "database": "database_test",
-  "host": "127.0.0.1",
-  "dialect": "mysql"
-  },
-  "production": {
-  "username": "root",
-  "password": null,
-  "database": "database_production",
-  "host": "127.0.0.1",
-  "dialect": "mysql"
-  }
-  }
-  ```
-
 - If youre setting up your dev env, write the username of your db, your password of your db and in dialect, mention whatever db youre using
 
-- If youre setting yp test/ prod env, make sure you also replace the host with the hosted db URL
+- If youre setting up test/ prod env, make sure you also replace the host with the hosted db URL
 
 Setup the project
 Download this template from github and open it in your favourite text editor.
@@ -64,7 +36,7 @@ ex:
 
 go inside the src folder and execute the following command:
 
-npx sequelize init
+`npx sequelize init`
 By executing the above command you will get migrations and seeders folder along with a config.json inside the config folder.
 
 If you're setting up your development environment, then write the username of your db, password of your db and in dialect mention whatever db you are using for ex: mysql, mariadb etc
@@ -73,4 +45,4 @@ If you're setting up test or prod environment, make sure you also replace the ho
 
 To run the server execute
 
-npm run dev
+`npm run dev`
