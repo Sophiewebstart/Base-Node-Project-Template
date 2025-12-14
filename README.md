@@ -19,7 +19,8 @@ Lets take a look inside the src folder
 - `utils` -> contains helper methods, error classes etc.
 
 - Inside the `src/config` folder create a file names `config.json` and write this code in it:
-  ....
+
+  ```
   {
   "development": {
   "username": "root",
@@ -43,6 +44,7 @@ Lets take a look inside the src folder
   "dialect": "mysql"
   }
   }
+  ```
 
 - If youre setting up your dev env, write the username of your db, your password of your db and in dialect, mention whatever db youre using
 
